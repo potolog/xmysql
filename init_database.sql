@@ -3,8 +3,6 @@
 GRANT ALL ON *.* TO 'root'@'%';
 flush privileges;
 
--- 建库
-CREATE DATABASE IF NOT EXISTS mydb default charset utf8 COLLATE utf8_general_ci;
 -- 切换数据库
 use mydb;
 
@@ -21,5 +19,5 @@ PRIMARY KEY (`id`)
 -- 插入数据
 INSERT INTO `table1` (`id`, `name`, `age`)
 VALUES
-(1,'姓名1',10),
-(2,'姓名2',11);
+(1,'姓名1',103),
+(2,'姓名2',111);
