@@ -3,6 +3,8 @@
 GRANT ALL ON *.* TO 'root'@'%';
 flush privileges;
 
+-- 建库
+CREATE DATABASE IF NOT EXISTS serverdb default charset utf8 COLLATE utf8_general_ci;
 -- 切换数据库
 use mydb;
 
